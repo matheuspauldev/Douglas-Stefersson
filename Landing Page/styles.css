@@ -1,0 +1,171 @@
+/* Mobile First*/
+@font-face {
+    font-family:'Montserrat' ;
+    src: url('/fonts/Montserrat/Montserrat.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    font-family:'Montserrat' ;
+    background-color: #F4F4F9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #6B8E23; /* Verde musgo */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#firstTTitle{
+    display: flex;
+    flex-direction: column;
+}
+
+#hero {
+    background-color: #ADFF2F; /* Verde-limão */
+    padding: 40px 20px;
+    text-align: center;
+    color: #333;
+}
+.topTitle{
+    text-transform: uppercase;
+    background: linear-gradient(to right, #666eff,#2693f9,#343df0);
+    background-size: 400% 100%;
+    animation: degrade 30s linear infinite alternate;
+    
+    -webkit-background-clip: text ;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes degrade {
+    0%{
+        background-position-x: 0% ;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+#hero h1 {
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#hero .f {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+#hero h3{
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+.cta {
+    background-color: #ff8400;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+}
+
+.cta:hover {
+    animation: none;
+}
+#ctafooter{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 6px;
+}
+#hero p {
+    font-size: 16px;
+    margin: 0px;
+}
+#ctafooter img{
+    max-width: 18px;
+    padding: 0px 7px;
+}
+
+#sobre, #servicos, #contato {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.social-icons a {
+    width: 60%;
+    max-width: 40px;
+}
+
+.social-icons img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media(min-width: 768px) {
+    #hero h1 {
+        font-size: 36px;
+    }
+    .nav-links {
+        gap: 100px;
+    }
+}
