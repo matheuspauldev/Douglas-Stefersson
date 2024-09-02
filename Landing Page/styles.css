@@ -12,53 +12,34 @@ body {
     padding: 0;
     color: #f4f0f0;
 }
-
-header {
-    background-color: #6B8E23; /* Verde musgo */
-    padding: 10px 20px;
+#hero {
+    padding-top: 20px;
+    width: 100%;
     text-align: center;
-}
-#hero .logo-principal{
-    width: 460px;
-    height: 350px;
 }
 div #firstTTitle{
     text-align: center;
     display: flex;
     flex-direction: column;
 }
-
-#hero {
-    padding: 20px 20px;
-    text-align: center;
-}
-.topTitle{
-    text-transform: uppercase;
-    background: linear-gradient(to right, #666eff,#2693f9,#343df0);
-    background-size: 400% 100%;
-    animation: degrade 30s linear infinite alternate;
-    
-    -webkit-background-clip: text ;
-    -webkit-text-fill-color: transparent;
+#hero .logo-principal{
+    width: 460px;
+    height: 350px;
 }
 
-#hero .f {
+#hero #subtitle-principal {
     font-size: 18px;
     margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
-#hero h3{
+#hero #chamada-principal{
     font-size: 24px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: 20px 0px 10px;
 }
-
-
+#hero p {
+    font-size: 16px;
+    margin: 0px;
+}
 .cta {
     background-color: #07cd2e;
     border: none;
@@ -69,7 +50,7 @@ div #firstTTitle{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 2px;
+    margin: 20px 2px 0px;
     cursor: pointer;
     border-radius: 8px;
     animation: pulse 2s infinite;
@@ -95,23 +76,51 @@ div #firstTTitle{
     flex-wrap: wrap;
     margin: 6px;
 }
-#hero p {
-    font-size: 16px;
-    margin: 0px;
-}
 section #sobre{
     display: flex;
     text-align: center;
+    width: 100%;
+    margin: 0;
 }
 #inteligencia-emocional{
     text-align: center;
-    width: 40%;
+    width: 80%;
     height: 400px;
     border: solid 1px;
     border-color: #fff;
-    border-radius: 20px;
-    margin-left: 30%;
-    margin-right: 0%;
+    margin-left: 10%;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+#inteligencia-emocional img{
+    margin-top: 15px;
+}
+
+#x{
+    text-align: center;
+    width: 80%;
+    height: 400px;
+    border: solid 1px;
+    border-color: #fff;
+    margin-left: 10%;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+#x img{
+    margin-top: 15px;
+}
+#resultado{
+    text-align: center;
+    width: 80%;
+    height: 400px;
+    border: solid 1px;
+    border-color: #fff;
+    margin-left: 10%;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+#resultado img{
+    margin-top: 15px;
 }
 #ctafooter img{
     max-width: 18px;
