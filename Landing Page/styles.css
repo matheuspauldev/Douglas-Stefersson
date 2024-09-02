@@ -7,10 +7,10 @@
 }
 body {
     font-family:'Montserrat' ;
-    background-color: #F4F4F9;
+    background-color: #02021f;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #f4f0f0;
 }
 
 header {
@@ -18,32 +18,19 @@ header {
     padding: 10px 20px;
     text-align: center;
 }
-
-.nav-links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+#hero .logo-principal{
+    width: 460px;
+    height: 350px;
 }
-
-.nav-links a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-#firstTTitle{
+div #firstTTitle{
+    text-align: center;
     display: flex;
     flex-direction: column;
 }
 
 #hero {
-    background-color: #ADFF2F; /* Verde-limão */
-    padding: 40px 20px;
+    padding: 20px 20px;
     text-align: center;
-    color: #333;
 }
 .topTitle{
     text-transform: uppercase;
@@ -53,22 +40,6 @@ header {
     
     -webkit-background-clip: text ;
     -webkit-text-fill-color: transparent;
-}
-
-@keyframes degrade {
-    0%{
-        background-position-x: 0% ;
-    }
-    100%{
-        background-position: 400%;
-    }
-}
-
-#hero h1 {
-    font-size: 24px;
-    margin-bottom: 0px;
-    margin-left: 60px;
-    margin-right: 60px;
 }
 
 #hero .f {
@@ -89,9 +60,10 @@ header {
 
 
 .cta {
-    background-color: #ff8400;
+    background-color: #07cd2e;
     border: none;
-    color: #fff;
+    color: black;
+    font-weight: 600;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -127,6 +99,20 @@ header {
     font-size: 16px;
     margin: 0px;
 }
+section #sobre{
+    display: flex;
+    text-align: center;
+}
+#inteligencia-emocional{
+    text-align: center;
+    width: 40%;
+    height: 400px;
+    border: solid 1px;
+    border-color: #fff;
+    border-radius: 20px;
+    margin-left: 30%;
+    margin-right: 0%;
+}
 #ctafooter img{
     max-width: 18px;
     padding: 0px 7px;
@@ -138,7 +124,7 @@ header {
 }
 
 footer {
-    background-color: #333;
+    background-color: #010211;
     color: white;
     padding: 20px;
 }
